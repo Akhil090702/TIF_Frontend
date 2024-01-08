@@ -1,0 +1,151 @@
+.footer {
+    height: 362px;
+    margin-top: 150px;
+    background-color: #F8F8F8;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    margin-top: 100px;
+}
+
+.image {
+    width: 161px;
+    height: 125px;
+    background-size: contain;
+    margin: auto;
+    position: relative;
+    top: 40%;
+    left: 50%;
+}
+
+.contact {
+    width: 232px;
+    height: 186px;
+}
+
+.heading {
+    width: 96px;
+    height: 27px;
+    color: #0E2368;
+    font-size: 18.84px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+}
+
+.textbox {
+    color: #646874;
+    width: 232px;
+    height: 145px;
+}
+
+.lorem-text {
+    width: 217px;
+    height: 69px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.mail {
+    width: 232px;
+    height: 23px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.phone {
+    width: 94px;
+    height: 23px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.combined {
+    display: flex;
+    width: 438px;
+    height: 186px;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 27px;
+}
+
+.list {
+    width: 153px;
+    height: 145px;
+    float: left;
+    padding-left: 0%;
+    color: #646874;
+}
+
+
+.more-heading {
+    width: 96px;
+    /* height: 27px; */
+    color: #0E2368;
+    font-size: 18.84px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+}
+
+.social-heading {
+    width: 110px;
+    /* height: 27px; */
+    color: #0E2368;
+    font-size: 18.84px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    margin-top: 45px;
+    display: flex;
+}
+
+.insta {
+    margin-right: 15px;
+    color: #0E2368;
+}
+
+.twitter {
+    margin-right: 15px;
+    color: #0E2368;
+}
+.facebook{
+    color: #0E2368;
+}
+.copyright {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 113px;
+    color: #828B9C;
+}
+
+@media screen and (max-width: 767px) {
+    .image{
+        display: none;
+    }
+
+}

@@ -1,0 +1,108 @@
+.headingtext {
+    /* font-family: Source Sans Pro; */
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    width: 461px;
+    height: 84px;
+    top: 160px;
+    left: 108px;
+    position: relative;
+    color: #0E2368;
+}
+
+.cards {
+    margin-top: 200px;
+}
+
+.imageback {
+    background-color: white;
+    height: 554px;
+    border-radius: 20px;
+    position: relative;
+    left: 15%;
+    color: black;
+    width: 380px !important;
+    border-radius: 20.94px;
+    border: 1.37px solid gray;
+
+}
+
+.imagediv {
+    display: flex;
+    justify-content: center;
+    width: 326px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+    height: 257px;
+    border-radius: 21px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 295.02px;
+    height: 194.52px;
+    margin: auto;
+    margin-top: 50px;
+    width: Fixed (295.02px);
+    gap: 27.41px;
+
+}
+
+.name {
+    /* font-family: Poppins; */
+    font-size: 21px;
+    color: #0E2368;
+    font-weight: 700;
+    line-height: 27px;
+    width: 285px;
+    height: 27px;
+}
+
+.review {
+    /* font-family: Open Sans; */
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    width: 295px;
+    height: 81px;
+    text-align: left;
+}
+
+.read-more {
+    width: 131px;
+    height: 42px;
+    padding: 3px, 26px, 3px, 26px;
+    border-radius: 21px;
+    border: 1px solid #424961;
+    background-color: white;
+    color: #424961;
+    gap: 10px;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 767px) {
+    .cards {
+        width: 100%; /* Adjust width for responsiveness */
+      }
+    
+      .imageback {
+        width: 100%; /* Force each image card to take the full width */
+      }
+    
+      .textbox {
+        padding: 10px; /* Adjust padding for smaller screens */
+      }
+}
